@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #46c8ec;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #a83838;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #5000c3;
+}
+
+a:link {
+    color: #00c38f; /* Default link color */
+    text-decoration: none; /* Removes underline */
+}
+
+/* When the link is clicked (visited state) */
+a:visited {
+    color: #00c38f; /* Color for visited links */
+    text-decoration: none; /* Keeps underline removed */
+}
+
+/* Optional: Add styles for hover and active states */
+a:hover {
+    color: #64fdd4; /* Color when hovering over the link */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+a:active {
+    color: #7521ee; /* Color when clicking on the link */
+}
+
+body {
+    background-color: #041026;
+    margin: 0;
+    text-align: center;
+}
